@@ -1,0 +1,15 @@
+/* Scope every rule under .mp-* so it cannot fight core Obsidian chrome. */
+
+.mp-view {
+	padding: 16px;
+}
+
+.mp-muted {
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+.mp-settings .mp-muted {
+	margin-top: 0;
+	margin-bottom: 1.25em;
+}

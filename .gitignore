@@ -1,0 +1,26 @@
+node_modules/
+
+# Generated
+/main.js
+/release/
+/*.zip
+
+# Local Obsidian / secrets
+/.obsidian/
+/data.json
+.env
+.env.*
+!.env.example
+
+*.log
+.cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arena session handoffs
+agents/arena/handoffs/*.md
+!agents/arena/handoffs/.gitkeep
+!agents/arena/handoffs/_TEMPLATE.md
+
